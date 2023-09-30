@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cookie&display=swap" rel="stylesheet">
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Diverse Insights</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">Diverse Insights</div>
+        <div class="nav-right">
+            <form action="search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Explore diverse blogs!">
+                <button class="btn">Search</button>
+            </form>
+            <form action="create.html" method="get">
+                <button class="btn">Create</button>
+            </form>
+        </div>
+    </nav>
+    <section class="create-blog">
+        <div class="create-top">
+            <h2>Put your thoughts into words!</h2>
+            <a href="index.html"><img src="Home_logo.png" alt="Return to Homepage"></a>
+        </div>
+        <div class="user-input">
+            <form id="blog-form">
+                <div class="blog-form">
+                    <input type="text" id="blog-title" placeholder="Enter blog title" required>
+                    <textarea id="blog-content" placeholder="Enter blog content" required></textarea>
+                    <button type="submit" class="btn">Commit Changes</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
